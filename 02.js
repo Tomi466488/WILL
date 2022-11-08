@@ -15,7 +15,7 @@ function stringMasLarga(strings) {
   let totales = [];
 
   for (let palabra of strings){
-    totales.push(pal.length);
+    totales.push(palabra.length);
   }
 
   let maximo = Math.max.apply(null, totales);
